@@ -22,7 +22,7 @@ function Todo(props) {
           {props.textBtn}
         </button>
       </div>
-      {modalIsOpen && <Modal />}
+      {modalIsOpen && <Modal onClick={closeModalHandler}/>}
       {modalIsOpen && <Backdrop onClick={closeModalHandler} />}
     </div>
   );
