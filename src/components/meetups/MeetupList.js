@@ -14,7 +14,6 @@ function MeetupList(props) {
           descripion={meetup.description}
         />
       ))}
-      ;
     </ul>
   );
 }
